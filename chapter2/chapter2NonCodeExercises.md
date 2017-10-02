@@ -30,8 +30,7 @@
 
 2. 
      Prelude> let double x = b * 2
-    
-    <interactive>:17:16: error: Variable not in scope: b
+        <interactive>:17:16: error: Variable not in scope: b
     Prelude> let double x = x * 2
     Prelude> double 2
     4
