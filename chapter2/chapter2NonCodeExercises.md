@@ -3,11 +3,11 @@
 
 2. 
 
-    let circleArea r = 3.14 * (r\*r)
+    let circleArea r = 3.14 * (r*r)
 
 3. 
 
-    let circleArea r = pi * (r\*r) 
+    let circleArea r = pi * (r*r) 
 
 # Chapter 2.6 Exercises
 
