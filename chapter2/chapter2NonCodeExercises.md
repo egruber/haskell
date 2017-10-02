@@ -18,12 +18,12 @@
 1. 
     Prelude> let area x = 3. 14 * (x * x)
     <interactive>:14:5: error:
-        • Non type-variable argument in the constraint: Num (a -> b)
-         (Use FlexibleContexts to permit this)
-        • When checking the inferred type
-            area :: forall b c a.
-                    (Num (a -> b), Num (a -> c), Num (b -> c))      =>
-                    (a -> c) -> a -> c
+    Non type-variable argument in the constraint: Num (a -> b)
+    (Use FlexibleContexts to permit this)
+    When checking the inferred type
+    area :: forall b c a.
+    (Num (a -> b), Num (a -> c), Num (b -> c))      =>
+    (a -> c) -> a -> c
     Prelude> let area x = 3.14 * (x * x)
     Prelude> area 2
     12.56
