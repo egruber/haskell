@@ -16,6 +16,7 @@
 # Chapter 2.7 REPL exercises
 
 1. 
+
     Prelude> let area x = 3. 14 * (x * x)
     <interactive>:14:5: error:
     Non type-variable argument in the constraint: Num (a -> b)
@@ -29,8 +30,10 @@
     12.56
 
 2. 
+
      Prelude> let double x = b * 2
         <interactive>:17:16: error: Variable not in scope: b
     Prelude> let double x = x * 2
     Prelude> double 2
     4
+
